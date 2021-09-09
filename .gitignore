@@ -1,0 +1,17 @@
+Website/*
+Template/*
+
+node_modules/*
+.vscode/*
+build/*
+.idea/*
+logs/*
+
+.env
+
+yarn-error.log
+application.yml
+binding.gyp
+
+package-lock.json
+yarn.lock

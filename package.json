@@ -1,0 +1,59 @@
+{
+  "name": "helperbot",
+  "version": "1.0.0",
+  "description": "A bot that can help you in your server with many functions that all your users will like a lot!",
+  "main": "main.js",
+  "scripts": {
+    "start": "pm2 start \"HelperBot\" && pm2 logs \"HelperBot\"",
+    "stop": "pm2 stop \"HelperBot\"",
+    "restart": "npm run stop && npm start",
+    "test": "nodemon ."
+  },
+  "author": "Fabrizio",
+  "collaborators": [
+    {
+      "name": "NotKirzu"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/opus": "^0.5.0",
+    "@fabricio-191/ms": "^1.0.4-2",
+    "apple-music-playlist": "^1.1.1",
+    "ascii-table": "^0.0.9",
+    "axios": "^0.21.4",
+    "cheerio": "^1.0.0-rc.10",
+    "common-tags": "^1.8.0",
+    "cpu-stat": "^2.0.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "erela.js": "^2.3.3",
+    "erela.js-apple_music": "^1.0.3",
+    "erela.js-deezer": "^1.0.5",
+    "erela.js-facebook": "^1.0.4",
+    "erela.js-spotify": "^1.2.0",
+    "eris": "^0.15.1",
+    "eris-pluris": "^0.0.4",
+    "eris-reactions": "^0.1.4",
+    "express": "^4.17.1",
+    "itunes-web-api": "^1.0.7",
+    "lavasfy": "^2.2.1",
+    "lyrics-finder": "^21.7.0",
+    "mongoose": "^5.12.10",
+    "node-fetch": "^3.0.0",
+    "opusscript": "^0.0.8",
+    "simple-youtube-api": "^5.2.1",
+    "slash-create": "^3.1.0",
+    "sodium-native": "3.2",
+    "spotify-url-info": "^2.2.0",
+    "spotify-web-api-node": "^5.0.2",
+    "string-progressbar": "^1.0.4",
+    "string-similarity": "^4.0.4",
+    "yeloapi": "^1.0.8",
+    "ytdl-core": "^4.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
