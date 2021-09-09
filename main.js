@@ -1,4 +1,4 @@
-require('dotenv').config();
+require("dotenv").config();
 
 const Helper = require("./Class/Client.js");
 const client = new Helper(process.env.DISCORD_TOKEN);
