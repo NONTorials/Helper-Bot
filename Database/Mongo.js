@@ -1,7 +1,7 @@
 const Moongose = require("mongoose");
 
 Moongose.connect(
-  "mongodb+srv://DevEater:Byfabrox1997@discordbotineris.ejunk.mongodb.net/HelperBotDatabase?retryWrites=true&w=majority",
+  process.env.MONGO_URI,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
