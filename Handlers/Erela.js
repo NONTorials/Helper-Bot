@@ -2,7 +2,7 @@ const { Manager } = require("erela.js");
 const Spotify = require("erela.js-spotify");
 const Deezer = require("erela.js-deezer");
 const Facebook = require("erela.js-facebook");
-const AppleMusic = require("erela.js-apple_music");
+const AppleMusic = require("erela.js-apple");
 
 async function InitErelaJS(client) {
   client.manager = new Manager({
